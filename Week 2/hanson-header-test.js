@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 ============================================
 ; Title:  header-test.js
@@ -10,3 +11,6 @@
 var header = require('./header.js');
 
 console.log(header.display("Drew", "Hanson", "Week 2"));
+=======
+
+>>>>>>> d1865165ed83c823e7e43f1f01953d5710d88903
