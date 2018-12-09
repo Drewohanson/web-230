@@ -7,6 +7,6 @@
 ;===========================================
 */
 
-var header = require('./header.js');
+var header = require('./hanson.header.js');
 
 console.log(header.display("Drew", "Hanson", "Week 2"));
