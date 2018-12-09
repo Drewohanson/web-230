@@ -7,6 +7,8 @@
 ;===========================================
 */
 
-var header = require('./hanson.header.js');
+const header = require('./hanson.header.js');
 
-console.log(header.display("Drew", "Hanson", "Week 2"));
+console.log(header.display("Drew" , "Hanson" , "Week 2"));
+
+
