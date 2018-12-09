@@ -9,13 +9,17 @@
 ;===========================================
 */
 
+const header = require('../hanson-header.js');
+console.log("\n")
+console.log(header.display("Drew", "Hanson", "Week 2"));
 
 //creation of function first name and last name
 function fullName(firstName, lastName) {
-    return firstName + " ", lastName;
+    return firstName + " " + lastName;
 }
+
 console.log("\n")
-Console.log("hello my name is "+ fullName("Drew", "Hanson") +"!")
+console.log("Hello my name is "+ fullName( "Drew", "Hanson") +"!")
 
 //creating a new date string
 function dateWriter(year, month, day) {
@@ -27,7 +31,7 @@ function formatNumber(number, numOfFixedPositions) {
     return number.toFixed( numOfFixedPositions);
 }
 console.log("\n")
-console.log("Today's date is " + dateWriter(2018, 7, 12) + " and the temperature is " + formatNumber(345.6578, 1) + " degrees.")
+console.log("Today's date is " + dateWriter(2018, 7, 12) + " and the temperature is " + formatNumber(35.6578, 1) + " degrees.")
 
 // funtion converting to interger
 function convertToInt (string) {
@@ -42,11 +46,11 @@ console.log("I am " + convertToInt('34') + ' years old and my savings account go
 
 // Test functions
 
-// test for myName
+// test for fullName
 console.log('\n');
-console.log(myName('Sam','Allen'));
-console.log(myName('Billy','Bob'));
-console.log(myName('Joe','Somebody'));
+console.log(fullName('Sam','Allen'));
+console.log(fullName('Billy','Bob'));
+console.log(fullName('Joe','Somebody'));
 
 //Test for dateWriter 
 console.log("\n")
