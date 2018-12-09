@@ -9,9 +9,6 @@
 ;===========================================
 */
 
-var header = require('../hanson-header.js');
-console.log("\n")
-console.log(header.display("Drew", "Hanson", "Week 2"));
 
 //creation of function first name and last name
 function fullName(firstName, lastName) {
