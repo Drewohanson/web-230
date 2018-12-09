@@ -9,7 +9,7 @@
 ;===========================================
 */
 
-const header = require('../hanson-header.js');
+var header = require('../hanson-header.js');
 console.log("\n")
 console.log(header.display("Drew", "Hanson", "Week 2"));
 
