@@ -13,22 +13,7 @@ var header = require('../hanson-header.js');
 // Output of header.display function that accepts first name, last name, assignment name
 console.log(header.display("Drew", "Hanson", "Exercise 4.3"));
 
-/*
-  Expected output:
-  Drew Hanson
-  Exercise 4.3
-  1/04/2019
-  -- DISPLAYING ARRAY ITEMS --
-  Car
-  Truck
-  Motorcycle
-  Airplane
-  Bus
-  -- SELECTED VALUE --
-  Motorcycle
-  -- SELECTED VALUE --
-  Bus
-*/
+
 
 // start program
 var vehicles =["Car","Truck", "Motorcycle", "Airplane", "Bus"];
