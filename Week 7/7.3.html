@@ -1,0 +1,57 @@
+<!--
+============================================
+; Title:  7.3.html
+; Author: Drew Hanson
+; Date:   24 January 2019
+; Description: Demonstrates client-side JavaScript
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drew Hanson</title>
+
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+<script>
+  document.write(
+      "<h1>Shopping list v1 </h1>" +
+  "<ol>"+
+    "<li>oranges</li>"+
+    "<li>apples</li>"+
+    "<li>Milk</li>" +
+    "<li>Reese</li>" +
+    "<li>pear</li>" +
+"</ol>"
+  );
+</script>
+
+
+<div id="list"></div>
+<script>
+  document.getElementById('list').innerHTML = "<h1>Shopping List V2</h1>" +
+    "<table>" +
+    "<thead>" +
+    "<tr>" +
+    "<th>List Item(s)</th>" +
+    "</tr>" +
+    "</thead>" +
+    "<tbody>" +
+    "<tr><td>1</td><td>oranges</td></tr>" +
+    "<tr><td>2</td><td>apples</td></tr>" +
+    "<tr><td>3</td><td>Milk</td></tr>" +
+    "<tr><td>4</td><td>Reese</td></tr>"+
+    "<tr><td>5</td><td>pear</td></tr>"
+
+    "</tbody>" +
+    "</table>"
+</script>
+
+
+
+</body>
+</html>
