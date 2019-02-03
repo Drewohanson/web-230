@@ -1,0 +1,75 @@
+<!--
+============================================
+; Title:  Hanson-exercise-8.2.html
+; Author: Drew Hanson
+; Date:   02 Feburary 2019
+; Modified by:
+; Description: Dynamic HTML
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 8.2</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <style type="text/css">
+    html{
+      font-family: 'Roboto', sans-serif;
+    }
+    nav{
+      background-color: forestgreen;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 0em
+    }
+    ul {
+      font-weight: 300;
+      list-style: none;
+      margin: 0 auto;
+    }
+    #fruits{
+      margin-left: 25px;
+    }
+   </style>   
+ </head>
+  <body>
+        <nav> <h1>Yummy Fruits</h1></nav>
+        <div id="fruits"></div>
+ <script>
+     //creating fruit array 
+        var fruits=[
+             {
+               id:1,
+               type:'orange',
+            },
+            {
+                id:2,
+                type:'pineaple',
+             },
+             {
+                id:3,
+                type:'grape',
+            },
+            {
+                id:4,
+                type:'avacodo'
+            },
+            {
+                id:5,
+                type:'tomato'
+             }
+        ];
+//create the table
+        var table= "<ul>"
+        for (var i=0;i<fruits.length;i++){
+    table += '<li>' + fruits[i].id + ' ' + fruits[i].type + '</i>';
+}
+//end table
+table += '</ul>';
+document.getElementById('fruits').innerHTML=table;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!--
+============================================
+; Title:  Hanson-discussion-8.1.html
+; Author: Drew Hanson
+; Date:   30 January 2019
+; Modified by:
+; Description: DOM Manipulation (jQuery)
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Discussion 8.1</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+    <h1>This is my attempt to animate a button</h1>
+        <p>So here it goes</p>
+        <button>Click to Start</button>
+    <div style="background:#124177;height:100px;width:100px;position:absolute;"></div>
+    <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            var div = $("div");
+            div.animate({height: '300px', opacity: '0.4'}, "slow");
+            div.animate({width: '300px', opacity: '0.8'}, "slow");
+            div.animate({height: '100px', opacity: '0.4'}, "slow");
+            div.animate({width: '100px', opacity: '0.8'}, "slow");
+          });
+        });
+        </script> 
+       
+    </body>
+</html>
