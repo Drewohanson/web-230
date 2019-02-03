@@ -2,12 +2,15 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-.content{
-    margin-left: 20px
-}
+
 .topbar{
-    background-color: #fed9ca;
+    background-color: #cafef7;
     min-height: 50px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin: 0em;
+    padding: 20px;
 }
 
 h1{
@@ -15,7 +18,7 @@ h1{
 
 }
 
-.prettyText{
+.paragraph{
   
     margin-top: 20px;
     padding: 20px;
@@ -24,30 +27,30 @@ h1{
 }
 
 button{
-  margin:auto;
+    margin:0;
     display: block;
-    background-color: #ffefe0;
-    color:#7d7d7d;
+    background-color: #3d3c3b;
+    color:#ebebeb;
     border: none;
     padding: 10px
 }
 
-table{
+.table{
   
     margin-top: 20px;
 }
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding:10px;
+    padding:5px;
   }
   
   th {
-    background-color:#fed9ca ;
+    background-color:#6331b4 ;
     color: white;
   }
   
   tr:nth-child(even) {
-    background-color: #fed9ca;
+    background-color: #8688e9;
   }
   
